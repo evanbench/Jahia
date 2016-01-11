@@ -1,0 +1,9 @@
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<mix = 'http://www.jcp.org/jcr/mix/1.0'>
+
+[jnt:LanguageLesson] > jnt:content, mix:title, jmix:structuredContent
+ - jcr:title (string) internationalized scoreboost=2.0
+ - body (string, richtext) internationalized
+ - image (weakreference, picker[type='image'])
+
